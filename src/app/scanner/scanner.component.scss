@@ -1,0 +1,5 @@
+.viewport::ng-deep video {
+    width: 100%;
+    object-fit: cover;
+    border: 8px solid black;
+}
