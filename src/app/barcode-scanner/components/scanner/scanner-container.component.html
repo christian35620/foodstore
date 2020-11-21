@@ -1,0 +1,3 @@
+<p>scanner-container works!</p>
+<barcode-reader (newReading)="readBarCode($event)"></barcode-reader>
+<newcode-dialog *ngIf="barcode" [barcode]="barcode"></newcode-dialog>
